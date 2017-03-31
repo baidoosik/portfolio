@@ -1,0 +1,305 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<link rel="stylesheet" media="all" href="{% static "portfolio/assets/style1.css"  %}" data-turbolinks-track="true" />
+	<script src="{% static "portfolio/javascripts/application1.js"  %}" data-turbolinks-track="true"></script>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+	<!--[if lte IE 8]><script src="https://s3.ap-northeast-2.amazonaws.com/portfolio37/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" media="screen" href="{% static "portfolio/assets/main.css"  %}" />
+	<!--[if lte IE 9]><link rel="stylesheet" media="screen" href="/assets/ie9-426537096aa08fb6d8f2a0c9673f7e41b020509b48bd39a3ae503ae2536176c6.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" media="screen" href="/assets/ie8-8c87ca00e45f53d90a6c5c87acf8f5dae7b0a8092eebc79ba252e0eb9ccd28ce.css" /><![endif]-->
+
+	<title>Kim Seyeong</title>
+	<!--<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">-->
+	<style>
+
+		.videoWrapper {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 25px;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	</style>
+</head>
+<body>
+  <!-- Wrapper -->
+	<div id="wrapper">
+    <!-- Header -->
+		<header id="header">
+			<div class="inner">
+					<!-- title -->
+					<a href="/"><h2>Kim Seyeong | 김세영</h2></a>
+					<!--<a href="generic">About</a>-->
+		  	<!--		<a href="index">Works</a>-->
+		  				<!--<li><a href="generic">Drawings</a></li>-->
+		  	<!--		<a href="generic">Awards</a>-->
+		  	<!--		<a href="generic">CV</a>-->
+		  	<!--		<a href="elements">Elements</a>-->
+				<br><br>
+
+      	<!-- Nav -->
+    		<nav>
+    			<ul>
+    				<li><a class = 'menu' href="#menu">Menu</a></li>
+    			</ul>
+    		</nav>
+			</div>
+
+		</header>
+    <div id="main">
+	<div class="inner">
+		<header>
+			<!--<form action='/index/' method="GET">-->
+	  		  <ul class="actions">
+	  		  	<li><a href="/index/all" class="button special small searchtag">All</a></li>
+	  		  	<li><a href="/index/humanity" class="button small searchtag">humanity</a></li>
+	  		  	<li><a href="/index/education" class="button small searchtag">education</a></li>
+	  		  	<li><a href="/index/interaction" class="button small searchtag">interaction</a></li>
+	  		  	<li><a href="/index/design" class="button small searchtag">design</a></li>
+	  		  	<li><a href="/index/art" class="button small searchtag">art</a></li>
+	  		  	<li><a href="/index/vr" class="button small searchtag">VR</a></li>
+	  		  	<li><a href="/index/business" class="button small searchtag">start-up</a></li>
+	  		  </ul>
+  		  <!--</form>-->
+			<!--<h1>This is Phantom, a free, fully responsive site<br />-->
+			<!--template designed by <a href="http://html5up.net">HTML5 UP</a>.</h1>-->
+			<!--<p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>-->
+		</header>
+
+		<section class="tiles">
+
+			<article class=style1>
+				<span class="image">
+					<img src="{% static "portfolio/assets/example1.jpg" %}" alt="Index vrpoetry ff8f2c7ed724ff57cd3d3e0c928cd0ac7c5ae19ea1dca2d60820e9fa73a102bf" />
+				</span>
+				<a href="/VRpoetry">
+					<h2>VR Poetry</h2>
+					<div class="content">
+						<p>A next storytelling medium for poetry representing a text poem into a visual form of tree structure.</p>
+					</div>
+				</a>
+			</article>
+			<article class=style2>
+				<span class="image">
+					<img src="{% static "portfolio/assets/example1.jpg" %}" alt="Index remembar fe9e08926329487451cb1cdc3f85508f94a9f888c408d2be91190711b7ffaa7f" />
+				</span>
+				<a href="/remembar">
+					<h2>Remembar</h2>
+					<div class="content">
+						<p>A new type of digital clock specially designed for daily scheduling.</p>
+					</div>
+				</a>
+			</article>
+			<article class=style3>
+				<span class="image">
+					<img src="{% static "portfolio/assets/example1.jpg" %}" alt="Index immersiveclassroom aee15d88848b393d4c466e8d4b544f1337095fe3ec77249116cd391a34273385" />
+				</span>
+				<a href="/immersiveclassroom">
+					<h2>Immersive Classroom</h2>
+					<div class="content">
+						<p>A collaborative research project with d&#39;Strict and Jeju Marine Science Museum.</p>
+					</div>
+				</a>
+			</article>
+			<article class=style4>
+				<span class="image">
+					<img src="{% static "portfolio/assets/example1.jpg" %}" alt="Index underwater2 18b110b0b871e439df0e2d8d161928a05c9a2ce7c57c10534642906df3cfc4a9" />
+				</span>
+				<a href="/underwater">
+					<h2>Underwater Experience</h2>
+					<div class="content">
+						<p>A VR content where you can explore ancient sea and observe prehistoric sea creatures.</p>
+					</div>
+				</a>
+			</article>
+			<article class=style5>
+				<span class="image">
+					<img src="{% static "portfolio/assets/example1.jpg" %}" alt="Index lango 5cbe1fde45a34f742fc73bdbc608ca2fcb99f0e840e29e15990712775e468388" />
+				</span>
+				<a href="/lango">
+					<h2>Lango</h2>
+					<div class="content">
+						<p>Interactive cubes specially desiged for language learning.</p>
+					</div>
+				</a>
+			</article>
+			<article class=style6>
+				<span class="image">
+					<img src="{% static "portfolio/assets/example1.jpg" %}" alt="Index bndstreet b6c6636abd600eaf0764a6870d707731d2a5a6cd47d658ef318089dd7fb2b758" />
+				</span>
+				<a href="/baekbeomro">
+					<h2>Baekbeom-ro &amp; Daeheung-ro</h2>
+					<div class="content">
+						<p>A documentary film about contrasting worlds on two diffrent streets, Baekbeom-ro and Daheung-ro.</p>
+					</div>
+				</a>
+			</article>
+			<article class=style1>
+				<span class="image">
+					<img src="{% static "portfolio/assets/example1.jpg" %}" alt="Index charatergraphy b81121466900e53f379bd08dcab3719bfc2069d26a1c1c7fa1dd1c943131142a" />
+				</span>
+				<a href="/charactergraphy">
+					<h2>Charactergraphy</h2>
+					<div class="content">
+						<p>An imaginary biography writing and character building for sophisticated storytelling.</p>
+					</div>
+				</a>
+			</article>
+			<article class=style2>
+				<span class="image">
+					<img src="{% static "portfolio/assets/example1.jpg" %}" alt="Index invisiblecities c0e55e71b31756b23d2a81ba36369719e907369aa5dfe0f047f8177afd91d86c" />
+				</span>
+				<a href="/visualbook">
+					<h2>Visaul Book - Invisible Cities</h2>
+					<div class="content">
+						<p>A visual book made of sand, inspired by Invisible cities by Italo Calvino</p>
+					</div>
+				</a>
+			</article>
+			<article class=style3>
+				<span class="image">
+					<img src="{% static "portfolio/assets/example1.jpg" %}" alt="Index colormix 274e18fd56fef943770a5d139f8a881c5c9c94baa800b46c6c326c588f92384c" />
+				</span>
+				<a href="/colormix">
+					<h2>Color Mix</h2>
+					<div class="content">
+						<p>A 3D art game that you can make new colors by combining the lights from the primary color balls</p>
+					</div>
+				</a>
+			</article>
+			<article class=style4>
+				<span class="image">
+					<img src="{% static "portfolio/assets/example1.jpg" %}" alt="Index drawncrack 468c0ac07fbf5c33290a98962276719b59db726edd8e573dd58c0c54cf862ba5" />
+				</span>
+				<a href="/drawncrack">
+					<h2>Draw &amp; Crack</h2>
+					<div class="content">
+						<p>A tablet game for two players where you can draw walls to bounce the ball or crack other player&#39;s walls to win the game.</p>
+					</div>
+				</a>
+			</article>
+			<article class=style5>
+				<span class="image">
+					<img src="{% static "portfolio/assets/example1.jpg" %}" alt="Index woozu e6105eea428d4bc043635391fda409bce838544584673614418453ec0e593051" />
+				</span>
+				<a href="/woozu">
+					<h2>WOOZU</h2>
+					<div class="content">
+						<p>A 3D printing contents web market where users can easily customize 3d models.</p>
+					</div>
+				</a>
+			</article>
+			<article class=style6>
+				<span class="image">
+					<img src="{% static "portfolio/assets/example1.jpg" %}" alt="Pic03 21fb7a0c4d72f217f94e13294b62096560a3fe9a14047e2de3329cf5e5e01923" />
+				</span>
+				<a href="/#">
+					<h2>Radiance Lab</h2>
+					<div class="content">
+						<p>Radiant Heating Technology</p>
+					</div>
+				</a>
+			</article>
+
+		</section>
+	</div>
+</div>
+
+
+<script>
+
+// $(function(){
+// 	$(".searchtag").click(function(){
+// 		search_tag = this.id;
+
+// 		$.ajax({
+// 			method: "GET",
+// 			url: "/index",
+// 			data: {content: search_tag},
+// 			success: function(){
+// 				alert("성공");
+// 			},
+// 			error: function(){
+// 				alert(this.id);
+// 			}
+
+
+// 		})
+
+// 	})
+// });
+</script>
+
+  	<!-- Menu -->
+  		<nav id = "menu">
+  			<h2>Menu</h2>
+  			<ul>
+  				<li><a href="/about">About</a></li>
+  				<li><a href="/">Works</a></li>
+  				<!--<li><a href="generic">Drawings</a></li>-->
+  				<li><a href="/awards">Awards & Honours</a></li>
+  				<!--<li><a href="/#">CV</a></li>-->
+  				<!--<li><a href="elements">Elements</a></li>-->
+  			</ul>
+  		</nav>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<section>
+						<h2>Get in touch</h2>
+						<p><strong>Phone</strong>&nbsp +82)10-8279-7736
+						<br><strong>Email</strong>&nbsp kimseyeong93@gmail.com</p>
+						<p>Currently lives in Seoul, South Korea</p>
+						<!--<form method="post" action="#">-->
+						<!--	<div class="field half first">-->
+						<!--		<input type="text" name="name" id="name" placeholder="Name" />-->
+						<!--	</div>-->
+						<!--	<div class="field half">-->
+						<!--		<input type="email" name="email" id="email" placeholder="Email" />-->
+						<!--	</div>-->
+						<!--	<div class="field">-->
+						<!--		<textarea name="message" id="message" placeholder="Message"></textarea>-->
+						<!--	</div>-->
+						<!--	<ul class="actions">-->
+						<!--		<li><input type="submit" value="Send" class="special" /></li>-->
+						<!--	</ul>-->
+						<!--</form>-->
+					</section>
+					<section>
+						<h2>Follow</h2>
+						<ul class="icons">
+							<li><a href="https://www.facebook.com/srkim7733" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/seyeongkim93" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+							<!--<li><a href="https://github.com/seyeongkim" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>-->
+							<li><a href="https://kr.linkedin.com/in/seyeong-kim-2a7503b0" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<!--<li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>-->
+							<!--<li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>-->
+						</ul>
+					</section>
+					<ul class="copyright">
+						<li>&copy; Kim Seyeong. All rights reserved</li>
+						<li>Design Reference. <a href="https://html5up.net/">HTML5up</a></li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+
+	<!-- Scripts -->
+
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+
+</body>
+</html>
