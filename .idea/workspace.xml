@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6c994c-b87c-48d0-afc6-44abd42455db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/assets/example1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/assets/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/assets/style1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/javascripts/application1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/settings.py" afterPath="$PROJECT_DIR$/mysite/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/urls.py" afterPath="$PROJECT_DIR$/portfolio/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/views.py" afterPath="$PROJECT_DIR$/portfolio/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/static/portfolio/assets/main.css" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/assets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/static/portfolio/assets/style1.css" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/assets/style1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -79,17 +73,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2608">
-              <caret line="107" column="74" lean-forward="false" selection-start-line="107" selection-start-column="74" selection-end-line="107" selection-end-column="74" />
+            <state relative-caret-position="303">
+              <caret line="44" column="55" lean-forward="false" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
               <folding>
-                <element signature="e#4353#4358#0#HTML" expanded="true" />
-                <element signature="e#5524#5529#0#HTML" expanded="true" />
-                <element signature="e#7291#7296#0#HTML" expanded="true" />
-                <element signature="e#7439#7444#0#HTML" expanded="true" />
-                <element signature="e#10804#10810#0#HTML" expanded="true" />
+                <element signature="e#4195#4200#0#HTML" expanded="true" />
+                <element signature="e#5366#5371#0#HTML" expanded="true" />
+                <element signature="e#7133#7138#0#HTML" expanded="true" />
+                <element signature="e#7281#7286#0#HTML" expanded="true" />
+                <element signature="e#10643#10649#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,6 +94,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>web</find>
+      <find>head</find>
+      <find>inner</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,13 +109,13 @@
         <option value="$PROJECT_DIR$/portfolio/templates/portfolio/bloginner.html" />
         <option value="$PROJECT_DIR$/portfolio/templates/portfolio/index.html" />
         <option value="$PROJECT_DIR$/mysite/urls.py" />
-        <option value="$PROJECT_DIR$/portfolio/static/portfolio/assets/style1.css" />
         <option value="$PROJECT_DIR$/portfolio/static/portfolio/javascripts/application1.js" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
-        <option value="$PROJECT_DIR$/portfolio/static/portfolio/assets/main.css" />
-        <option value="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" />
         <option value="$PROJECT_DIR$/portfolio/views.py" />
         <option value="$PROJECT_DIR$/portfolio/urls.py" />
+        <option value="$PROJECT_DIR$/portfolio/static/portfolio/assets/main.css" />
+        <option value="$PROJECT_DIR$/portfolio/static/portfolio/assets/style1.css" />
+        <option value="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" />
       </list>
     </option>
   </component>
@@ -131,7 +127,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="25" />
-    <option name="width" value="1411" />
+    <option name="width" value="1195" />
     <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -579,10 +575,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1411" height="821" extended-state="1" />
+    <frame x="0" y="25" width="1195" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16158752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19079497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -698,20 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/static/portfolio/assets/style1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-          <folding>
-            <element signature="e#34473#34808#2" expanded="false" />
-            <element signature="e#39351#39727#2" expanded="false" />
-            <element signature="e#39795#40171#2" expanded="false" />
-            <element signature="e#42756#43088#2" expanded="false" />
-            <element signature="e#43135#43467#2" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -740,34 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/static/portfolio/assets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#33299#33634#2" expanded="true" />
-            <element signature="e#38177#38553#2" expanded="true" />
-            <element signature="e#38621#38997#2" expanded="true" />
-            <element signature="e#41582#41914#2" expanded="true" />
-            <element signature="e#41961#42293#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2608">
-          <caret line="107" column="74" lean-forward="false" selection-start-line="107" selection-start-column="74" selection-end-line="107" selection-end-column="74" />
-          <folding>
-            <element signature="e#4353#4358#0#HTML" expanded="true" />
-            <element signature="e#5524#5529#0#HTML" expanded="true" />
-            <element signature="e#7291#7296#0#HTML" expanded="true" />
-            <element signature="e#7439#7444#0#HTML" expanded="true" />
-            <element signature="e#10804#10810#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -782,6 +736,42 @@
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/portfolio/assets/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="73" lean-forward="true" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/portfolio/assets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#33327#33662#2" expanded="true" />
+            <element signature="e#38205#38581#2" expanded="true" />
+            <element signature="e#38649#39025#2" expanded="true" />
+            <element signature="e#41610#41942#2" expanded="true" />
+            <element signature="e#41989#42321#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="44" column="55" lean-forward="false" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+          <folding>
+            <element signature="e#4195#4200#0#HTML" expanded="true" />
+            <element signature="e#5366#5371#0#HTML" expanded="true" />
+            <element signature="e#7133#7138#0#HTML" expanded="true" />
+            <element signature="e#7281#7286#0#HTML" expanded="true" />
+            <element signature="e#10643#10649#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
