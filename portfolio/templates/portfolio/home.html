@@ -41,8 +41,8 @@
 		<header id="header">
 			<div class="inner">
 					<!-- title -->
-					<a href="/"><h2>JORDAN BAE | 배 두 식</h2></a>
-                    <h2>{% now "Y F d D H:i" %}  </h2>
+					<a href="/"><h2>JORDAN BAE | 배 두 식 <pre>{% now "Y F d D H:i" %} </pre></h2></a>
+
 					<!--<a href="generic">About</a>-->
 		  	<!--		<a href="index">Works</a>-->
 		  				<!--<li><a href="generic">Drawings</a></li>-->
@@ -70,6 +70,7 @@
 	  		  	<li><a href="/index/education" class="button small searchtag">Start-up</a></li>
 	  		  	<li><a href="/index/interaction" class="button small searchtag">Project</a></li>
                 <li><a href="/index/interaction" class="button small searchtag">Experience</a></li>
+                <li><a href="/index/interaction" class="button small searchtag">RESUME</a></li>
 	  		  </ul>
   		  <!--</form>-->
 			<!--<h1>This is Phantom, a free, fully responsive site<br />-->
@@ -245,7 +246,7 @@
   		<nav id = "menu">
   			<h2>Menu</h2>
   			<ul>
-  				<li><a href="/about">About</a></li>
+  				<li><a href="{% url "portfolio:profile" %}">About</a></li>
   				<li><a href="/">Works</a></li>
   				<!--<li><a href="generic">Drawings</a></li>-->
   				<li><a href="/awards">Awards & Honours</a></li>
