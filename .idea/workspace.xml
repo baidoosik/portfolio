@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6c994c-b87c-48d0-afc6-44abd42455db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/assets/facebook30x30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/assets/facebook40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/assets/github.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/assets/instagram40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/settings.py" afterPath="$PROJECT_DIR$/mysite/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/profile.html" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,21 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="profile.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="103" />
+            <state relative-caret-position="795">
+              <caret line="53" column="88" lean-forward="false" selection-start-line="53" selection-start-column="88" selection-end-line="53" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="109" column="146" lean-forward="false" selection-start-line="109" selection-start-column="146" selection-end-line="109" selection-end-column="146" />
+            <state relative-caret-position="511">
+              <caret line="120" column="22" lean-forward="true" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -136,10 +127,10 @@
         <option value="$PROJECT_DIR$/portfolio/urls.py" />
         <option value="$PROJECT_DIR$/portfolio/models.py" />
         <option value="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" />
-        <option value="$PROJECT_DIR$/portfolio/templates/portfolio/profile.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/portfolio/templates/portfolio/layout.html" />
+        <option value="$PROJECT_DIR$/portfolio/templates/portfolio/profile.html" />
       </list>
     </option>
   </component>
@@ -1023,14 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1895">
@@ -1041,8 +1024,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="109" column="146" lean-forward="false" selection-start-line="109" selection-start-column="146" selection-end-line="109" selection-end-column="146" />
+        <state relative-caret-position="511">
+          <caret line="120" column="22" lean-forward="true" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="88" lean-forward="false" selection-start-line="53" selection-start-column="88" selection-end-line="53" selection-end-column="88" />
           <folding />
         </state>
       </provider>
