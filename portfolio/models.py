@@ -2,6 +2,8 @@
 from django.db import models
 from imagekit.models import ProcessedImageField
 from imagekit.processors import Thumbnail
+from django.core.urlresolvers import reverse
+
 
 # Create your models here.
 class TimestampModel(models.Model):
@@ -23,7 +25,7 @@ class Post(TimestampModel):
         ),default=False)
 
     photo1 = ProcessedImageField(blank=True, upload_to='blog/photo1/%Y/%M/%D',
-                                processors=[Thumbnail(500,500)],
+                                processors=[Thumbnail(600,600)],
                                 format='JPEG',
                                 options={'quality':60})
 
@@ -33,3 +35,13 @@ class Post(TimestampModel):
                                 options={'quality':60})
 
     summary = models.CharField(max_length=200)
+
+
+    def __str__(self):
+        return self.title
+
+    def get_absolute_url(self):
+        return reverse('blog:post_detail',args=[self.id])
+
+    class Meta:
+        ordering = ['id']

@@ -10,6 +10,8 @@ urlpatterns =[
     url(r'^experience/$', views.experience_view, name='experience'),
     url(r'^resume/$',views.resume_view, name='resume'),
     url(r'^profile/$',views.profile_view, name='profile'),
+    url(r'^post/new/$',views.post_new,name='post_new'),
+  #  url(r'^post/detail/$',views.post_detail,name='post_detail'),
 ]
 
 

@@ -1,0 +1,17 @@
+<link rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+<div class ="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h1>POST NEW</h1>
+            <form action="" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <table class="table table-bordered table-hover">
+                    {{ form.as_table }}
+                </table>
+                <input type="submit" class="btn btn-primary" />
+            </form>
+        </div>
+    </div>
+</div>
