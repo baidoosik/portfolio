@@ -46,11 +46,11 @@
 		</header>
 
 		<section class="tiles">
-            {% for post in form%}
-                <article class=style1>
-                    <span class="image">
-                        <img src="{{ post.photo1.url }}" style="max-width: 100%" />
-                    </span>
+            {% for post in form %}
+                <article class={% cycle 'style1' 'style2' 'style3' 'style4' 'style5' 'style6'%}>
+                        <span class="image">
+                            <img src="{{ post.photo1.url }}" style="max-width: 100%" />
+                        </span>
                     <a href="/VRpoetry">
                         <h2>{{ post.title  }}</h2>
                         <div class="content">
