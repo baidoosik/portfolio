@@ -75,4 +75,11 @@ def post_new(request):
         'form':form
     })
 
+def post_detail(request,pk):
+    post = get_object_or_404(Post,id=pk)
+
+    return render(request, 'portfolio/post_detail.html',{
+        'post':post
+    })
+
 

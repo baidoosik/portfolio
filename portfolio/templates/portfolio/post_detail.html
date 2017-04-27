@@ -1,8 +1,6 @@
-{% extends 'portfolio/layout.html' %}
-{% load static  %}
+{% extends "portfolio/layout.html" %}
 {% block contents %}
 {% load imagekit %}
-<!-- Wrapper -->
 	<div id="wrapper">
     <!-- Header -->
 		<header id="header">
@@ -44,24 +42,17 @@
 			<!--template designed by <a href="http://html5up.net">HTML5 UP</a>.</h1>-->
 			<!--<p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>-->
 		</header>
-
-		<section class="tiles">
-            {% for post in form %}
-                <article class={% cycle 'style1' 'style2' 'style3' 'style4' 'style5' 'style6'%}>
-                        <span class="image">
-                            <img src="{{ post.photo1.url }}" style="max-width: 100%" />
-                        </span>
-                    <a href="{% url "portfolio:post_detail" post.id %}">
-                        <h2>{{ post.title  }}</h2>
-                        <div class="content">
-                            <p>{{ post.summary }}</p>
-                        </div>
-                    </a>
-                </article>
-            {% endfor %}
-
-		</section>
-	</div>
-</div>
-
+                <h2> {{ post.title }}</h2>
+                <h3>{{ post.category }} 2016.12.5 ~12.10</h3>
+                <div class="row uniform">
+                {% if post.photo1 %}
+                    {% thumbnail "450x400" post.photo1 %}
+                {% endif %}
+                {% if post.photo2 %}
+                    {% thumbnail "450x400" post.photo2 %}
+                {% endif %}
+                </div>
+            </div>
+    </div>
+    </div>
 {% endblock %}
