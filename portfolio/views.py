@@ -14,10 +14,18 @@ def main_view(request):
     })
 
 def elec_view(request):
-    return render(request,'portfolio/home.html')
+    post = Post.objects.filter(category="Electronic-Eng").all()
+
+    return render(request,'portfolio/project_list.html',{
+        'form':post
+    })
 
 def startup_view(request):
-    return render(request,'portfolio/home.html')
+    post = Post.objects.filter(category="Start-up").all()
+
+    return render(request,'portfolio/project_list.html',{
+        'form':post
+    })
 
 def project_view(request):
     post = Post.objects.filter(category="Project").all()
@@ -27,7 +35,11 @@ def project_view(request):
     })
 
 def experience_view(request):
-    return render(request,'portfolio/home.html')
+    post = Post.objects.filter(category="Experience").all()
+
+    return render(request,'portfolio/project_list.html',{
+        'form':post
+    })
 
 
 # 이력서 다운로드.
