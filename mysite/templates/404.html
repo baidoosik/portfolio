@@ -1,0 +1,12 @@
+{% extends 'portfolio/layout.html' %}
+{% block contents %}
+    <h1 style="text-align:center;">Hi~!</h1>
+    <h2 style="text-align: center;">This page does not exist</h2>
+    <h2 style="text-align: center;">try the correct address</h2>
+    <h1 style="text-align: center;color:pink;"><a href="{% url 'portfolio:main_view' %}">홈 주소</a></h1>
+    <br><br>
+    <h1 style="text-align: center">안녕하세요~!</h1>
+    <h2 style="text-align: center">이 페이지는 존재하지 않는 페이지입니다. 유효하지 않은 주소로 접근하셨습니다</h2>
+    <h2 style="text-align: center">올바른 주소로 접근해주세요!</h2>
+
+{% endblock %}

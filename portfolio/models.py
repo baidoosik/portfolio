@@ -25,14 +25,14 @@ class Post(TimestampModel):
         ),default=False)
 
     photo1 = ProcessedImageField(blank=True, upload_to='blog/photo1/%Y/%M/%D',
-                                processors=[Thumbnail(600,600)],
+                                processors=[Thumbnail(800,800)],
                                 format='JPEG',
-                                options={'quality':60})
+                                options={'quality':100})
 
     photo2 = ProcessedImageField(blank=True, upload_to='blog/photo2/%Y/%M/%D',
-                                processors=[Thumbnail(500,500)],
+                                processors=[Thumbnail(800,800)],
                                 format='JPEG',
-                                options={'quality':60})
+                                options={'quality':100})
 
     summary = models.CharField(max_length=200)
 
