@@ -1,5 +1,6 @@
 {% extends "portfolio/layout.html" %}
 {% block contents %}
+{% load static %}
 {% load imagekit %}
 	<div id="wrapper">
     <!-- Header -->
@@ -53,8 +54,39 @@
                     {% thumbnail "600x600" post.photo2 %}
                 {% endif %}
                 </div>
-                <p>This is a documentary film about contrasting worlds on two diffrent streets, Baekbeom-ro and Daheung-ro. I try to capture the images and stories of a disappering street, Daheung-ro in comparison with Baekbeom-ro. Baekbeom-ro is a fancy and busy downtown street where everyone is anonymous in a crowd. Conversely, Daheung-ro is an undeveloped and shabby street embracing individual human stories.  </p>
-                <p>반경 500m 거리 이내에 위치하지만 전혀 다른 두 모습을 가지고 있는 두 거리, 백범로, 대흥로를 걸으며 느끼는 이질적인 감성, 그 속에 담긴 이야기와 사라져가는 대흥로의 모습을 다큐멘터리로 풀어내었다.깔끔하고 화려한 백범로의 모습과 달리 대흥로는 낡고 허름하다. 그러나 백범로가 한 명의 인간이 수 십명의 군중속에 너무나 쉽게 익명으로 묻혀버리는 곳이라면 대흥로는 구멍가게 하나 하나에 주인할머니, 할아버지의 고유한 스토리가 담겨있고 좁은 길을 지나는 행인 한 명 한명이 고유한 인간으로 드러나는 곳이다. 재개발 허가가 떨어진 후 완전히 사라지게 될 대흥로의 낡고 허름하지만 정감있는 모습들을 마지막으로 영상에 담아내었다. </p>
+                <p>One day i saw some posting in sogang sns group. Many students said "i want to make boy, girl friends.", "i envy some couples", "i dont know how to meet girl friends&boy friends."
+                These day, many student are very busy and have many difficult problem. So, They are short to meet good people. So i want to help them.
+                especially student who spend much time in library. ago final exam, i want to deliver thrill to them!  </p>
+                <p>기말 고사 일주일 전, 서강 대나무 숲이라는 SNS 그룹에 많은 친구들이 외로움을 호소하는 것을 발견했습니다. 이성 친구를 만나는 법을 모르겠다는 친구, 학교 도서관에만
+                있다보니 만날수가 없다는 친구, 여러 친구들이 있었습니다. 사실 요즘 많은 학생들은 바쁘고, 각자의 다양한 어려운 문제들을 가지고 있습니다. 시험 전에 그 친구들에게 작은 설렘을 전달
+                할 수 있는 프로젝트를 만들어 도움을 주고 싶어 취미와 스타일을 기반한 '데이터 소개팅'을 기획하게 됐습니다.</p>
+                <p></p>
+                <h2>과 정</h2>
+                <h3>홍보</h3>
+                <h4>facebook 홍 보 글</h4>
+                <img src="{% static "portfolio/assets/cow_project2.png" %}"/>
+                <p>교내 facebook community를 이용해서 남자, 여자 각각 39명씩 선착순 지원을 받았고, 동영상 제작 템플릿을 이용해 홍보영상 제작.
+                남성은 2시간만에 마감, 여성은 2일만에 모집을 마감.</p>
+                <h4> 홍 보 영 상</h4>
+                <div class="videoWrapper">
+                    <iframe src="https://player.vimeo.com/video/215797603" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/215797603">Promotion Movie/a> from <a href="https://vimeo.com/user66192581">Doosik Bae</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                </div><br>
+                <h3>프로젝트 솔루션</h3>
+                <table>
+                    <li>Python Django를 이용해서 간단한 사이트 구축.</li>
+                    <li>objects.filter를 이용해서 외모 성격 및 라이프 스타일 매칭</li>
+                    <li>라이프 스타일(도서관 커플/여행 커플/운동 커플/영화관 커플)</li>
+                    <li>선호 스타일(친구같은 애인, 오빠 동생, .....)</li>
+                    <li>shaker를 이용해서 간단한 영상 제작</li>
+                </table><br>
+                <h3>프로젝트 성과</h3>
+                <table>
+                    <li>남자는 두 시간만에 마감! 여자는 2일 만에 마감! </li>
+                    <li>기말고사 일주일 전에 학우들에게 설렘이라는 가치 전.</li>
+                    <li>200개 이상의 댓글로 많은 호응을 얻을 수 얻음.</li>
+                    <li>소개팅이라는 서비스를 기획할 때 어떤 점이 중요하고 어떤 가치에 집중해야 하는지 확인할 수 있었음.</li>
+                    <li>3커플이 실제로 성사됨!!</li>
+                </table>
             </div>
     </div>
     </div>
