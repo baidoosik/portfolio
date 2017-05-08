@@ -30,6 +30,7 @@ class Post(TimestampModel):
 
     summary = models.CharField(max_length=200)
 
+    period = models.CharField(max_length=200, default=False)
 
 
     def __str__(self):

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fd6c994c-b87c-48d0-afc6-44abd42455db" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/models.py" afterPath="$PROJECT_DIR$/portfolio/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/cowdogting.html" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/cowdogting.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/post_detail.html" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/post_detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/toilet.html" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/toilet.html" />
     </list>
@@ -23,8 +24,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="480">
+              <caret line="32" column="59" lean-forward="false" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
               <folding>
                 <element signature="e#21#49#0" expanded="true" />
               </folding>
@@ -56,25 +57,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/post_detail.html">
+      <file leaf-file-name="project_list.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/project_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="79" selection-end-column="158" />
-              <folding>
-                <element signature="e#4058#4081#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="499">
+              <caret line="58" column="30" lean-forward="false" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toilet.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/toilet.html">
+      <file leaf-file-name="post_detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/post_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="78" column="158" lean-forward="false" selection-start-line="78" selection-start-column="158" selection-end-line="78" selection-end-column="158" />
+            <state relative-caret-position="345">
+              <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="49" />
               <folding>
-                <element signature="e#4057#4080#0#HTML" expanded="true" />
+                <element signature="e#4067#4090#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +82,8 @@
       <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="75" column="55" lean-forward="false" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="55" />
+            <state relative-caret-position="360">
+              <caret line="88" column="49" lean-forward="true" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -136,10 +135,10 @@
         <option value="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" />
         <option value="$PROJECT_DIR$/portfolio/templates/portfolio/project_list.html" />
         <option value="$PROJECT_DIR$/portfolio/templates/portfolio/profile.html" />
-        <option value="$PROJECT_DIR$/portfolio/templates/portfolio/cowdogting.html" />
         <option value="$PROJECT_DIR$/portfolio/models.py" />
         <option value="$PROJECT_DIR$/portfolio/templates/portfolio/post_detail.html" />
         <option value="$PROJECT_DIR$/portfolio/templates/portfolio/toilet.html" />
+        <option value="$PROJECT_DIR$/portfolio/templates/portfolio/cowdogting.html" />
       </list>
     </option>
   </component>
@@ -1008,24 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/project_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="58" column="30" lean-forward="false" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="694">
@@ -1036,39 +1017,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/cowdogting.html">
+    <entry file="file://$PROJECT_DIR$/portfolio/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="67" column="18" lean-forward="true" selection-start-line="66" selection-start-column="77" selection-end-line="67" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="480">
+          <caret line="32" column="59" lean-forward="false" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+          <folding>
+            <element signature="e#21#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="75" column="55" lean-forward="false" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="55" />
+        <state relative-caret-position="360">
+          <caret line="88" column="49" lean-forward="true" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="79" selection-end-column="158" />
+        <state relative-caret-position="345">
+          <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="49" />
           <folding>
-            <element signature="e#4058#4081#0#HTML" expanded="true" />
+            <element signature="e#4067#4090#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/cowdogting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="47" column="49" lean-forward="false" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/toilet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="78" column="158" lean-forward="false" selection-start-line="78" selection-start-column="158" selection-end-line="78" selection-end-column="158" />
-          <folding>
-            <element signature="e#4057#4080#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="445">
+          <caret line="47" column="49" lean-forward="false" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/project_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="58" column="30" lean-forward="false" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
