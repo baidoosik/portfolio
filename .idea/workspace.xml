@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6c994c-b87c-48d0-afc6-44abd42455db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/assets/toilet_popular.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/cowdogting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/toilet.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/models.py" afterPath="$PROJECT_DIR$/portfolio/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/post_detail.html" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/post_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/toilet.html" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/toilet.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,9 +59,11 @@
       <file leaf-file-name="post_detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/post_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="76" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="81" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="511">
+              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="79" selection-end-column="158" />
+              <folding>
+                <element signature="e#4058#4081#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,9 +71,11 @@
       <file leaf-file-name="toilet.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/toilet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="81" column="14" lean-forward="false" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="574">
+              <caret line="78" column="158" lean-forward="false" selection-start-line="78" selection-start-column="158" selection-end-line="78" selection-end-column="158" />
+              <folding>
+                <element signature="e#4057#4080#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +83,7 @@
       <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
+            <state relative-caret-position="165">
               <caret line="75" column="55" lean-forward="false" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="55" />
               <folding />
             </state>
@@ -1045,7 +1046,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
+        <state relative-caret-position="165">
           <caret line="75" column="55" lean-forward="false" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="55" />
           <folding />
         </state>
@@ -1053,17 +1054,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="81" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="511">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="79" selection-end-column="158" />
+          <folding>
+            <element signature="e#4058#4081#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/toilet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="81" column="14" lean-forward="false" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="574">
+          <caret line="78" column="158" lean-forward="false" selection-start-line="78" selection-start-column="158" selection-end-line="78" selection-end-column="158" />
+          <folding>
+            <element signature="e#4057#4080#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
