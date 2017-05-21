@@ -76,20 +76,20 @@ def post_new(request):
     })
 
 def post_detail_cowdogting(request):
-    post = Post.objects.filter(url="post_detail_cowdogting")
+    post = Post.objects.filter(url="portfolio:post_detail_cowdogting").first()
 
     return render(request, 'portfolio/cowdogting.html',{
         'post':post
     })
 
 def post_detail_toilet(request):
-    post = Post.objects.filter(url="post_detail_toilet")
+    post = Post.objects.filter(url="portfolio:post_detail_toilet").first()
     return render(request, 'portfolio/toilet.html',{
         'post':post
     })
 
 def post_detail_global(request):
-    post = Post.objects.filter(url="post_detail_global_challenge")
+    post = Post.objects.filter(url="portfolio:post_detail_global_challenge").first()
 
     return render(request, 'portfolio/global_challenge.html',{
         'post':post
