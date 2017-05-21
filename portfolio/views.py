@@ -5,7 +5,7 @@ from .models import Post
 from .forms import PostForm
 
 
-# Create your views here.
+# 상단 메뉴
 def main_view(request):
     post = Post.objects.all()
 
@@ -75,11 +75,22 @@ def post_new(request):
         'form':form
     })
 
-def post_detail(request,pk):
-    post = get_object_or_404(Post,id=pk)
+def post_detail_cowdogting(request):
+    post = Post.objects.filter(url="post_detail_cowdogting")
 
-    return render(request, 'portfolio/post_detail.html',{
+    return render(request, 'portfolio/cowdogting.html',{
         'post':post
     })
 
+def post_detail_toilet(request):
+    post = Post.objects.filter(url="post_detail_toilet")
+    return render(request, 'portfolio/toilet.html',{
+        'post':post
+    })
 
+def post_detail_global(request):
+    post = Post.objects.filter(url="post_detail_global_challenge")
+
+    return render(request, 'portfolio/global_challenge.html',{
+        'post':post
+    })

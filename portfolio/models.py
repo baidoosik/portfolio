@@ -32,6 +32,8 @@ class Post(TimestampModel):
 
     period = models.CharField(max_length=200, default=False)
 
+    url = models.CharField(max_length=100)
+
 
     def __str__(self):
         return self.title
