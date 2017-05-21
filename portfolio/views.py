@@ -94,3 +94,10 @@ def post_detail_global(request):
     return render(request, 'portfolio/global_challenge.html',{
         'post':post
     })
+
+def post_detail_example(request):
+    post = Post.objects.filter(url="portfolio:example").first()
+
+    return render(request, 'portfolio/post_detail.html',{
+        'post':post
+    })
