@@ -2,7 +2,7 @@
 __pycache__
 /media
 /myvenv
-/mysite/settings
+/mysite/settings/common.py
 db.sqlite3
 .DS_Store
 *.json
