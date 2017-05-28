@@ -3,3 +3,4 @@ django-storages
 boto3
 pymysql
 raven
+awsebcli

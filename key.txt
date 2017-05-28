@@ -1,0 +1,33 @@
+export DJANGO_SETTINGS_MODULE=mysite.settings.prod_aws
+
+export DB_HOST='myportfolio2.cfknroivhif0.ap-northeast-2.rds.amazonaws.com'
+export DB_NAME='myportfolio2'
+export DB_USER='myportfolio2'
+export DB_PASSWORD='Erunc837!!'
+export DB_PORT=3306
+
+export AWS_ACCESS_KEY_ID='AKIAIPEUZGGZ442YVTJA'
+export AWS_SECRET_ACCESS_KEY='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'
+export AWS_STORAGE_BUCKET_NAME='photowall-bucket'
+export AWS_S3_REGION_NAME='ap-northeast-2'
+
+echo $DB_HOST
+
+python3 manage.py makemigrations --settings=mysite.settings.prod_aws
+python3 manage.py migrate --settings=mysite.settings.prod_aws
+python3 manage.py collectstatic --settings=mysite.settings.prod_aws
+
+eb setenv \
+    DJANGO_SETTINGS_MODULE=mysite.settings.prod_aws \
+    DB_HOST='myportfolio2.cfknroivhif0.ap-northeast-2.rds.amazonaws.com' \
+    DB_NAME='myportfolio2' \
+    DB_USER='myportfolio2' \
+    DB_PASSWORD='Erunc837!!' \
+    DB_PORT=3306 \
+    AWS_ACCESS_KEY_ID='AKIAIPEUZGGZ442YVTJA' \
+    AWS_SECRET_ACCESS_KEY='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' \
+    AWS_STORAGE_BUCKET_NAME='photowall-bucket' \
+    AWS_S3_REGION_NAME='ap-northeast-2'
+
+
+
