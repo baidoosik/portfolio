@@ -1,12 +1,22 @@
 *.pyc
 __pycache__
 /media
-/myvenv
 /mysite/settings/common.py
 db.sqlite3
 .DS_Store
 *.json
 key.txt
+
+# virtualenv
+.venv/
+venv/
+ENV/
+
+# pyenv
+.python-version
+
+# IPython Notebook
+.ipynb_checkpoints
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
