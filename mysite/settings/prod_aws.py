@@ -18,7 +18,8 @@ DATABASES = {
     },
 }
 
-INSTALLED_APPS += ['storages']
+INSTALLED_APPS += ['storages',]
+
 
 # django-storages 앱 의존성 추가
 # 기본 static/media 저장소를 django-storages로 변경

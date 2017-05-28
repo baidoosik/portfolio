@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 """
 
 import os
-
+import raven
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'imagekit',
     'portfolio',
+    'raven.contrib.django.raven_compat',
 ]
 
 MIDDLEWARE = [
@@ -130,3 +131,17 @@ MEDIA_URL ='/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 
+# sentry 연동하기
+
+GIT_ROOT = BASE_DIR # FIXME: 현 프로젝트 ROOT 지정
+if os.path.exists(os.path.join(GIT_ROOT, '.git')):
+    release = raven.fetch_git_sha(GIT_ROOT)
+else:
+    release = 'dev'
+
+RAVEN_CONFIG = {
+    'dsn': 'https://f6c53165de7b42ae84648bff47a96f32:0752ecf17b024e79b6c4e11773eb8776@sentry.io/173029',
+    # If you are using git, you can also automatically configure the
+    # release based on the git info.
+    'release': release,
+}

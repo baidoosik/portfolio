@@ -2,48 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6c994c-b87c-48d0-afc6-44abd42455db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/settings/prod_aws.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/wsgi.py" afterPath="$PROJECT_DIR$/mysite/wsgi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/__init__.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/adapters.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/adapters.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/api.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/api.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/auth.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/auth.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/cacert.pem" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/cacert.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/certs.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/certs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/compat.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/compat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/cookies.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/cookies.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/exceptions.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/exceptions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/hooks.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/hooks.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/models.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/__init__.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/__init__.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/_collections.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/_collections.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/connection.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/connection.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/contrib/appengine.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/contrib/appengine.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/contrib/ntlmpool.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/contrib/ntlmpool.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/contrib/pyopenssl.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/contrib/pyopenssl.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/exceptions.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/exceptions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/fields.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/fields.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/filepost.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/filepost.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/packages/six.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/packages/six.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/packages/ssl_match_hostname/_implementation.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/packages/ssl_match_hostname/_implementation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/poolmanager.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/poolmanager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/request.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/request.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/response.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/response.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/util/__init__.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/util/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/util/connection.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/util/connection.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/util/response.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/util/response.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/util/retry.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/util/retry.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/util/ssl_.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/util/ssl_.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/util/timeout.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/util/timeout.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/util/url.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/packages/urllib3/util/url.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/sessions.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/sessions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/status_codes.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/status_codes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/structures.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/structures.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/utils.py" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/settings/common.py" afterPath="$PROJECT_DIR$/mysite/settings/common.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/settings/prod_aws.py" afterPath="$PROJECT_DIR$/mysite/settings/prod_aws.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reqs/prod_aws.txt" afterPath="$PROJECT_DIR$/reqs/prod_aws.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prod_aws.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prod_aws.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/settings/prod_aws.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -81,12 +41,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prod_aws.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reqs/prod_aws.txt">
+      <file leaf-file-name="common.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysite/settings/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="2010">
+              <caret line="134" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+              <folding>
+                <element signature="e#308#317#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,7 +87,6 @@
         <option value="$PROJECT_DIR$/reqs/common.txt" />
         <option value="$PROJECT_DIR$/reqs/dev.txt" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/mysite/settings/common.py" />
         <option value="$PROJECT_DIR$/mysite/settings/dev.py" />
         <option value="$PROJECT_DIR$/mysite/settings/prod.py" />
         <option value="$PROJECT_DIR$/portfolio/templates/portfolio/project_list.html" />
@@ -141,9 +102,10 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/reqs/prod.txt" />
+        <option value="$PROJECT_DIR$/mysite/wsgi.py" />
         <option value="$PROJECT_DIR$/reqs/prod_aws.txt" />
         <option value="$PROJECT_DIR$/mysite/settings/prod_aws.py" />
-        <option value="$PROJECT_DIR$/mysite/wsgi.py" />
+        <option value="$PROJECT_DIR$/mysite/settings/common.py" />
       </list>
     </option>
   </component>
@@ -961,14 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="14" lean-forward="false" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
@@ -995,14 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reqs/prod_aws.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1011,12 +957,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings/prod_aws.py">
+    <entry file="file://$PROJECT_DIR$/reqs/prod_aws.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings/prod_aws.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="134" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding>
+            <element signature="e#308#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
