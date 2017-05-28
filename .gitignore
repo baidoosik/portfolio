@@ -1,7 +1,5 @@
 *.pyc
 __pycache__
-/media
-/mysite/settings/common.py
 db.sqlite3
 .DS_Store
 *.json
