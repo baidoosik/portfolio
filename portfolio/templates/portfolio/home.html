@@ -8,6 +8,9 @@
 			<div class="inner">
 					<!-- title -->
 					<a href="/"><h2>JORDAN BAE | 배 두 식 <pre>{% now "Y F d D H:i" %} </pre></h2></a>
+                    {% if user.is_authenticated %}
+                        <h3 style="text-align: right "><a href="http://127.0.0.1:8001/admin/portfolio/post/add/">+Post+</a></h3>
+                    {% endif %}
 
 					<!--<a href="generic">About</a>-->
 		  	<!--		<a href="index">Works</a>-->
