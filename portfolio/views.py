@@ -95,6 +95,13 @@ def post_detail_global(request):
         'post':post
     })
 
+def post_detail_dream(request):
+    post = Post.objects.filter(url="portfolio:post_detail_dream").first()
+
+    return render(request, 'portfolio/dream.html',{
+        'post':post
+    })
+
 def post_detail_example(request):
     post = Post.objects.filter(url="portfolio:example").first()
 

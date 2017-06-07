@@ -15,6 +15,7 @@ urlpatterns =[
     url(r'^post/detail/cowdogting/$',views.post_detail_cowdogting,name='post_detail_cowdogting'),
     url(r'^post/detail/toilet/$',views.post_detail_toilet,name='post_detail_toilet'),
     url(r'^post/detail/global/$',views.post_detail_global,name='post_detail_global_challenge'),
+    url(r'^post/detail/dream/$',views.post_detail_dream,name='post_detail_dream'),
 
   #  url(r'^post/detail/$',views.post_detail,name='post_detail'),
 ]

@@ -1,0 +1,94 @@
+{% extends "portfolio/layout.html" %}
+{% block contents %}
+{% load static %}
+{% load imagekit %}
+	<div id="wrapper">
+    <!-- Header -->
+		<header id="header">
+			<div class="inner">
+					<!-- title -->
+					<a href="/"><h2>JORDAN BAE | 배 두 식 <pre>{% now "Y F d D H:i" %} </pre></h2></a>
+
+					<!--<a href="generic">About</a>-->
+		  	<!--		<a href="index">Works</a>-->
+		  				<!--<li><a href="generic">Drawings</a></li>-->
+		  	<!--		<a href="generic">Awards</a>-->
+		  	<!--		<a href="generic">CV</a>-->
+		  	<!--		<a href="elements">Elements</a>-->
+				<br><br>
+
+      	<!-- Nav -->
+    		<nav>
+    			<ul>
+    				<li><a class = 'menu' href="#menu">Menu</a></li>
+    			</ul>
+    		</nav>
+			</div>
+
+		</header>
+    <div id="main">
+	<div class="inner">
+		<header>
+			<!--<form action='/index/' method="GET">-->
+	  		  <ul class="actions">
+                <li><a href="{% url "portfolio:profile" %}" class="button special small searchtag">About</a></li>
+	  		  	<li><a href="{% url "portfolio:main_view" %}" class="button small searchtag">All</a></li>
+	  		  	<li><a href="{% url "portfolio:elec" %}" class="button small searchtag">Electronic Eng</a></li>
+	  		  	<li><a href="{% url "portfolio:startup" %}" class="button small searchtag">Start-up</a></li>
+	  		  	<li><a href="{% url "portfolio:project" %}" class="button small searchtag">Project</a></li>
+                <li><a href="{% url "portfolio:experience" %}" class="button small searchtag">Experience</a></li>
+                <li><a href="{% url "portfolio:resume" %}" class="button small searchtag">RESUME</a></li>
+	  		  </ul>
+  		  <!--</form>-->
+			<!--<h1>This is Phantom, a free, fully responsive site<br />-->
+			<!--template designed by <a href="http://html5up.net">HTML5 UP</a>.</h1>-->
+			<!--<p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>-->
+		</header>
+                <h2> {{ post.title }}</h2>
+                <h3>{{ post.category }}&nbsp&nbsp{{ post.period }}</h3>
+                <div class="row uniform">
+                {% if post.photo1 %}
+                    {% thumbnail "600x600" post.photo1 %}
+                {% endif %}
+                {% if post.photo2 %}
+                    {% thumbnail "600x600" post.photo2 %}
+                {% endif %}
+                </div><br>
+                <p>I participated in the Global Challenge 2016 program in Silicon Valley for 10 days from 2016.11.6 to 11.15.
+                The Global Challenge Program is a program to validate the start-up ideas and items of college students who have already started or prepare for a startup or preparing for
+                    college students in a competition with Silicon Valley University students.I participated in Global Challenge 2016 with the ‘ Used Mobile coupon Relay Platform ’ which developed through my start-up club.I participated in three competitions in a total of three competitions,
+                    presenting myself in front of the VC in Silicon Valley, preparing for it, and modifying the items through mentoring.
+                The pitching contest also attracted participants from the Silicon Valley and Stanford University and participated in the Coding Day event to learn and feel the culture of Silicon Valley.</p>
+                <p>저는 2016.11.6 일 부터 11.15 까지 10일 동안 실리콘밸리에서 진행한 글로벌 챌린지2016 프로그램에 참여했습니다. 글로벌 챌린지 프로그램은 창업을 이미 했거나 준비하고 있는 대학생들의
+                창업 아이디어와 아이템을 실리콘 밸리 대학생들과의 경진대회를 통해 검증하고, 실리콘 밸리의 창업문화를 경험할 수 있는 기회를 제공하는 프로그램입니다. 저는 창업 동아리를 통해
+                발전시켜온 '중고 모바일 쿠폰 중계 플랫폼' 이라는 아이템을 가지고 글로벌 챌린지2016에 참여하였습니다. 총 3번의 경진대회에 참여하여 직접 제 아이디어를 실리콘밸리의 VC들
+                앞에서 발표를 하고, 이를 준비하며 멘토링을 통해 아이템을 수정해나갔습니다. 피칭대회이에도 구글 본사 & 마이크로 소프트 & 스탠포드 대학교 방문, Coding Day 행사에 참여하여
+                실리콘밸리의 창업문화를 배우고 느낄 수 있었습니다.</p>
+                <p></p>
+
+                <h2>주요 내용</h2>
+                <img src="{% static 'portfolio/assets/global1.png' %}"/>
+                <h3>관련 사진</h3>
+                <div class="row">
+                    <img src="{% static 'portfolio/assets/global2.png' %}"/>
+                    <img src="{% static 'portfolio/assets/global3.png' %}"/>
+                    <br>
+                    <img src="{% static 'portfolio/assets/global4.png' %}"/>
+                    <img src="{% static 'portfolio/assets/global6.png' %}"/>
+                </div>
+                <br>
+                <h3>내가 배운것들 , what i learned !</h3>
+                <img src="{% static 'portfolio/assets/global8.png' %}"/>
+                <p>실리콘 밸리에서 가장 나를 놀라게 만들었던 것은 그들의 '열정' 이었다. 그들의 기술이나 인프라도 나를 놀라게 만들었지만, 나에겐 그들의 열정이
+                가장 뜨겁고 강하게 느껴졌다. 대한민국, 대부분의 청년들의 꿈인 공무원인 나라에서 온 나는 그들의 창업에 대한 열정, 주체적 삶에 대한 열망에 정말 놀라지 않을 수 없었다.
+                대부분의 에너지를 미래를 걱정하고, 안정적인 직장을 준비하는 대한민국에서 나름 꿈 많은 청년이라고 생각했던 나는 그들의 Attitude와 Passion에 놀랐고, 그런 그들이
+                바라보는 큰 세상에 놀랐다. 그런 그들이 있기 때문에 세계에서 가장 창업이 활성화 된 곳이 만들어졌을 것이다. 그들의 정신과 열정을 느끼고 온 것이 나에게 가장 큰 '자산'이다!
+                두 번째는 '소중한 경험'을 얻었다. 한국어가 아닌 영어로 내 비즈니스를 10분 동안 VC 앞에서 발표할 수 있는 경험, 이 경험은 나에게 큰 자산이 될 것이다. 영어에 능숙하지 않기
+                때문에 더 큰 자산이 될거라고 생각한다. 세번째는 '동료'들을 얻었다. 내 주변의 대부분의 사람들은 대기업에 취업했거나 할 예정인 안정적인 삶을 원하는 사람들이 많다. 같이 프로그램에 참여한
+                꿈 많고 열정을 가진 친구들이 나에게 큰 자산이다. 글로벌 챌린지 2016은 나에게 정말 소중한 경험이었고, 이를 통해 많은 것을 얻고 배울수 있었다. </p>
+
+
+            </div>
+    </div>
+    </div>
+{% endblock %}
