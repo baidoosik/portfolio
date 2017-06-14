@@ -19,7 +19,7 @@ from django.contrib import admin
 from django.conf.urls.static import static
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    url(r'^worldnomade-doosik/', admin.site.urls),
     url(r'^',include('portfolio.urls',namespace='portfolio')),
 ]
 
